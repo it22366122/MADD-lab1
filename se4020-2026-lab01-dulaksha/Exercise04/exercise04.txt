@@ -1,0 +1,10 @@
+
+Exercise 4:
+
+You can use replit.com if you don't have access to a dedicated Apple Device for these labs
+
+Write a program to convert a given length in inches to cm
+Use a constant for the conversion factor
+Use type annotation for your solution and test it and make a working solutione
+Include a version of your code that doesn't work due incorrect data types, include this in Exercise 4 folder
+Commit and push code to your repository

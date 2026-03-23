@@ -1,0 +1,45 @@
+
+Integer division truncates decimal values.
+The expression 5 / 9 evaluates to 0.
+As a result, the Celsius value is inaccurate.
+The program compiles and runs, but does not produce precise results.
+
+Double supports fractional values.
+The division 5.0 / 9.0 produces an accurate result.
+This version correctly converts Fahrenheit to Celsius.
+Double is the appropriate data type for temperature calculations.
+
+
+//
+//  main.swift
+//  Lab01c
+//
+//  Created by Thimesha Ansar on 2026-01-27.
+//
+
+import Foundation
+
+//Integer for All variables
+print("Enter Temperature in Fahrenheit(output in Int): ")
+let FahrenheitInt = Int(readLine()!)!
+let CelciusInt = (FahrenheitInt - 32) * 5 / 9
+print("Temperature in Celcius is: \(CelciusInt)")
+
+//This program uses Int variables for all calculations.
+//Integer division truncates decimal values.
+//The expression 5 / 9 evaluates to 0.
+//As a result, the Celsius value is inaccurate.
+//The program compiles and runs, but does not produce precise results.
+print("////////////////////////////////////////////////////")
+//Double for All variables
+print("Enter Temperature in Fahrenheit(output in Double): ")
+let FahrenheitDouble = Double(readLine()!)!
+let CelciusDouble = (FahrenheitDouble - 32) * 5.0 / 9.0
+print("Temperature in Celcius is: \(CelciusDouble)")
+
+//This program uses Double variables for all calculations.
+//Double supports fractional values.
+//The division 5.0 / 9.0 produces an accurate result.
+//This version correctly converts Fahrenheit to Celsius.
+//Double is the appropriate data type for temperature calculations.
+

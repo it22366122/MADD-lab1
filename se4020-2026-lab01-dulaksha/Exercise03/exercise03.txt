@@ -1,0 +1,10 @@
+
+Exercise 3:
+
+You can use replit.com if you don't have access to a dedicated Apple Device for these labs
+
+Write a program to convert a given temperature in Fahr to Celcius
+Use integers for all your variables, does your solution work, please comment
+Use double for all your variables, does your solution work, please comment
+Try to solve problems you see and make a working program
+Commit and push code to your repository, please include your comments as text files for 2, 3 under the Exercise 3 folder

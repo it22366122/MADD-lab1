@@ -1,0 +1,35 @@
+Exercise 1:
+
+Login to a Apple Mac using instructions provided
+Clone your lab to the Mac computer using the command line
+Create a simple app using Playground to create a UIKit based app that prints Hello World in a label when a button is clicked
+Change the simulator from an iphone to a ipad and run your application
+Capture two screen shots and add to your repo of your simulated running application (iphone and ipad)
+Commit and Push your code to the repository
+Note : Please refer to the Instruction video provided
+
+
+//
+//  ViewController.swift
+//  Lab01a
+//
+//  Created by Thimesha Ansar on 2026-01-26.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    @IBOutlet weak var Label: UILabel!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+    @IBAction func Button(_ sender: Any) {
+        Label.text = "Hello World"
+    }
+    
+}
+
+

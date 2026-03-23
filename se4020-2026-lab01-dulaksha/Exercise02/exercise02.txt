@@ -1,0 +1,38 @@
+
+Exercise 2:
+
+Login to a Apple Mac using instructions provided
+Create a simple app using SwiftUI based app that prints Hello World in a label when a button is clicked
+Change the simulator from an iphone to a ipad and run your application
+Capture two screen shots and add to your repo of your simulated running application (iphone and ipad)
+Commit and Push your code to the repository
+Note : Please refer to the Instruction video provided
+
+//
+//  ContentView.swift
+//  Lab01b
+//
+//  Created by Thimesha Ansar on 2026-01-27.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    @State var labelText: String = "Initial Value"
+    var body: some View {
+        VStack {
+            Text(labelText)
+                .font(.title)
+            Button(action : {
+                self.labelText = "Hello, World!"
+            }){
+                Text("Click Me")
+            }
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}

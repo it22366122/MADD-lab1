@@ -1,0 +1,6 @@
+
+The incorrect version uses Int instead of Double.
+The conversion factor 2.54 is truncated to 2.
+Integer arithmetic removes decimal precision.
+As a result, the program produces incorrect centimeter values.
+Using Double is required for accurate length conversion.

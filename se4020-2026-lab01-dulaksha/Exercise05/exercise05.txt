@@ -1,0 +1,7 @@
+Exercise 5:
+
+You can use replit.com if you don't have access to a dedicated Apple Device for these labs
+
+Write a program of your choice that uses String, Bool, Int and Double types
+Have some of your variables and constants use type annotation and some using type inference
+Commit and push code to your repository
